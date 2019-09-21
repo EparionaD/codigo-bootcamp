@@ -1,0 +1,92 @@
+:root{
+    --color: #dedee8;
+    --tamletra: 1.1em;
+}
+p{
+    padding: 0 0;
+    margin: 0 0;
+}
+
+header{
+    text-align: center;
+}
+header p{
+    font-size: 1.2em;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5em;
+}
+img{
+    width: 400px;
+}
+.titulo{
+    width: 100%;
+}
+.titulo h2{
+    background: black;
+    color: white;
+    padding: 0 .5em;
+    font-size: 1.8em;
+}
+.datos p{
+    font-size: var(--tamletra);
+}
+.datos p span{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.datos{
+    background: var(--color);
+    padding: 0em .5em;
+}
+.experiencia p{
+    font-size: var(--tamletra);
+}
+.experiencia p span{
+    color: green;
+    font-weight: bolder;
+}
+.experiencia{
+    background: var(--color);
+    padding: 0 .5em;
+}
+.edu{
+    background: var(--color);
+    padding: 0 .5em;
+}
+.edu p{
+    font-size: var(--tamletra);
+}
+.edu p span{
+    color: green;
+    font-weight: bolder;
+}
+.cap{
+    background: var(--color);
+    padding: 0 .5em;
+}
+.cap h3{
+    color: fuchsia;
+    background: #cbcbcb;
+}
+.cap p span{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.cap p{
+    font-size: var(--tamletra);
+}
+.titulo p{
+    font-size: var(--tamletra);
+}
+footer{
+    margin: 1.8em 5em;
+    padding: .5em 5em;
+    text-align: center;
+    background: #e1c5bf;
+}
